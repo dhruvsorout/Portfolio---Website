@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    background-color: #edf1fd;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #129b9b;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #fff;
+    color: #129b9b;
+    border: 1px solid #129b9b;
+}
+header{
+    padding: 15px 0;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:  100%;
+}
+.logo-cont{
+    font-size: 26px;
+    font-weight: 900;
+    color: #434040;;
+}
+.nav-menu-ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-menu-ul a{
+    color: #545252;
+}
+.nav-menu-ul a:hover{
+    text-decoration: underline;
+}
+.nav-header-search{
+    display: flex;
+    gap: 20px;
+}
+#nav-search{
+    padding: 0px 8px;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-hero-section{
+    width: 60%;
+    padding-left: 9%;
+    padding-right: 10%;
+}
+.left-hero-section h1{
+    font-size: 32px;
+    color: #434040;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.left-hero-section h1 span{
+    color: #129b9b;
+    background-color: #dfdfe0;
+    padding: 0 8px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.left-hero-section p{
+    font-size: 20px;
+    color: #434040;
+    font-weight: 100;
+}
+.left-hero-section p span{
+    color: #129b9b;
+    font-size: 25px;
+    font-weight: 300;
+}
+.right-hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    gap: 30px;
+}
+.rhs-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 40%;
+}
+.rhs-btn{
+    padding: 8px 25px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #434040;
+    margin-bottom: 0.5%;
+}
+.footer-copy{
+    font-size: 18px;
+}
+.footer-menu-ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.footer-menu-ul a{
+    color: #434040;
+}
+.footer-menu-ul i:hover{
+    text-decoration: underline;
+}
